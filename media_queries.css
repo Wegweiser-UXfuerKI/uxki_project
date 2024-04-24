@@ -1,0 +1,469 @@
+@media screen and (min-width: 769px) {
+    #nav {
+        display: flex !important;
+    }
+}
+
+/*Smaller devices*/
+@media screen and (max-width: 1500px) {
+    #section5 #popup-content .left-arrow {
+        left: 10%;
+    }
+
+    #section5 #popup-content .right-arrow {
+        right: 10%;
+    }
+}
+
+/*small screens*/
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    #nav {
+        width: 100%;
+        height: 7%;
+        z-index: 3;
+    }
+
+    #inner-nav {
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .content-background,
+    footer {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    #section1 .background-text {
+        font-size: 250px;
+        margin-top: -25px;
+        margin-left: -22px;
+    }
+
+    #section2 .image-card {
+        margin-bottom: 120px;
+    }
+
+    #section3 .tile {
+        width: 32%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+    }
+
+    #section3 .tile.tile2 {
+        margin-top: 10px;
+    }
+
+    #section4 .col {
+        width: 48%;
+    }
+
+    #section4 .tile {
+        width: 100%;
+    }
+
+    #section5 .tile {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 30px;
+        height: 320px;
+    }
+
+    #section5 #insta-feed img {
+        width: 170px;
+        height: 170px;
+    }
+
+    #section5 #popup-content {
+        width: 650px;
+    }
+
+    #section5 #popup-content .left-arrow {
+        left: 40%;
+    }
+
+    #section5 #popup-content .right-arrow {
+        right: 40%;
+    }
+
+    #section5 #popup-content .arrow {
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #nav {
+        display: none;
+        height: 45%;
+        width: 180px;
+        z-index: 3;
+        border-bottom-right-radius: 4px;
+    }
+
+    #inner-nav {
+        width: 95%;
+        height: 70%;
+        margin: 20px;
+        margin-bottom: 30px;
+        align-self: flex-end;
+        justify-content: space-between;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .nav-btn {
+        font-size: 13px;
+    }
+
+    #burger {
+        display: inline-block;
+    }
+
+    .content-background,
+    footer {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .content {
+        width: 70%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .icon {
+        height: auto;
+        width: 30%;
+    }
+
+    #section1 .foreground-text {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #section1 .col {
+        margin-top: 165px;
+        margin-bottom: 20px;
+    }
+
+    #section1 .tile1 {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    #section1 .img-container {
+        display: none;
+    }
+
+    #section1 #sm-wegweiser {
+        display: block;
+        height: auto;
+        width: 30%;
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    #section1 .background-text {
+        font-size: 140px;
+        margin-top: 57px;
+        margin-left: -12px;
+    }
+
+    #section1 .tile2 a {
+        width: 45%;
+        margin: 10px 0px 20px 0px;
+    }
+
+    #section2 .row3,
+    #section5 .tile {
+        margin-bottom: 100px;
+    }
+
+    #section2 .row2 {
+        margin-bottom: 40px;
+    }
+
+    #section2 .text-right {
+        width: 65%;
+    }
+
+    #section2 .text-right p {
+        width: auto;
+    }
+
+    #section2 .info p {
+        font-size: 12px;
+    }
+
+    #section2 .info .name {
+        font-size: 13px;
+    }
+
+    #section2 .row2,
+    #section2 .row3 {
+        flex-wrap: wrap;
+    }
+
+    #section2 .info p {
+        font-size: 13px;
+    }
+
+    #section2 .info .name {
+        font-size: 14px;
+    }
+
+    #section2 .image-card {
+        width: 42%;
+        max-width: 42%;
+        margin-bottom: 130px;
+    }
+
+    #section3 .row1 p {
+        margin-right: 10px;
+    }
+
+    #section3 .row2 {
+        flex-wrap: wrap;
+    }
+
+    #section3 .tile {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #section3 .tile2 {
+        margin-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 100px;
+    }
+
+    #section3 .img-background {
+        width: 32%;
+        height: 90px;
+    }
+
+    #section4 .row2 {
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+    }
+
+    #section4 .col,
+    #section4 .tile {
+        width: 100%;
+    }
+
+    #section4 .tile3,
+    #section4 .tile4 {
+        display: none;
+    }
+
+    #section4 .tile1 {
+        height: 450px;
+    }
+
+    #section4 iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+    #section5 .col {
+        width: 80%;
+    }
+
+    #section5 #insta-feed {
+        flex-wrap: wrap;
+    }
+
+    #section5 .tile {
+        height: auto;
+        padding: 15px;
+    }
+
+    #section5 #insta-feed img {
+        width: 45%;
+        height: 45%;
+        margin-bottom: 10px;
+    }
+
+    #section5 #popup-content {
+        max-width: 95%;
+        width: 300px;
+        height: 380px;
+    }
+
+    #section5 #post-info #bottom .row {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #section5 #post-info #top .row {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #section5 #popup-content {
+        height: auto;
+        width: auto;
+    }
+
+    #section5 #popup-content .left-arrow {
+        left: 40%;
+    }
+
+    #section5 #popup-content .right-arrow {
+        right: 40%;
+    }
+
+    #section5 #popup-content .arrow {
+        bottom: 15%;
+    }
+
+    footer .img-container {
+        width: 150px;
+    }
+
+    footer .text-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #section1 #sm-wegweiser {
+        display: none;
+    }
+
+    #section1 .tile2 a p {
+        font-size: 12px;
+    }
+}
+
+/*mobile phones*/
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #section1 .background-text {
+        font-size: 100px;
+        margin-top: 32px;
+    }
+
+    #section1 .col {
+        margin-top: 100px;
+    }
+
+    #section1 .tile1 {
+        margin-top: 30px;
+    }
+
+    #section2 .row3,
+    #section3 .tile2,
+    #section4 .row2,
+    #section5 .tile {
+        margin-bottom: 100px;
+    }
+
+    #section3 .col {
+        width: 80%;
+    }
+
+    #section3 .icon,
+    #section4 .icon,
+    #section2 .icon,
+    #section5 .icon {
+        width: 40%;
+    }
+
+    #section5 .row1 p {
+        margin-right: 5px;
+    }
+
+    #section5 #popup-content {
+        height: auto;
+        width: auto;
+    }
+
+    #section5 #top img {
+        display: none;
+    }
+
+    #section5 #popup-content .left-arrow {
+        left: 30%;
+    }
+
+    #section5 #popup-content .right-arrow {
+        right: 30%;
+    }
+
+    #section5 #popup-content .arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
