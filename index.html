@@ -7,6 +7,26 @@
     <link rel="icon" type="image/x-icon" href="/images/wegweiser_flat.png" />
     <link href="style.css" rel="stylesheet" />
     <link href="media_queries.css" rel="stylesheet" />
+    <!-- START Formbricks Surveys -->
+    <script type="text/javascript">
+      !(function () {
+        var apiHost = "https://app.formbricks.com";
+        var environmentId = "cm3c1kkl20006ly53qugirfmu";
+        var t = document.createElement("script");
+        (t.type = "text/javascript"),
+          (t.async = !0),
+          (t.src = apiHost + "/js/formbricks.umd.cjs");
+        var e = document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(t, e),
+          setTimeout(function () {
+            window.formbricks.init({
+              environmentId: environmentId,
+              apiHost: apiHost,
+            });
+          }, 500);
+      })();
+    </script>
+    <!-- END Formbricks Surveys -->
   </head>
 
   <body>
