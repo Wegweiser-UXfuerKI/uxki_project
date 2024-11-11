@@ -1,76 +1,110 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wegweiser UX für KI</title>
-    <link rel="icon" type="image/x-icon" href="/images/wegweiser_flat.png">
-    <link href="style.css" rel="stylesheet">
-    <link href="media_queries.css" rel="stylesheet">
-</head>
+    <link rel="icon" type="image/x-icon" href="/images/wegweiser_flat.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="media_queries.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <nav id="nav">
-            <div id="inner-nav">
-                <button class="nav-btn active" id="nav1"
-                    onclick="scrollToElement('section1')">Projektvorstellung</button>
-                <hr class="nav-line line1 active" id="line1">
-                <button class="nav-btn" id="nav2" onclick="scrollToElement('section2')">Unser Team</button>
-                <hr class="nav-line line2" id="line2">
-                <button class="nav-btn" id="nav3" onclick="scrollToElement('section3')">Projektablauf</button>
-                <hr class="nav-line line3" id="line3">
-                <button class="nav-btn" id="nav4" onclick="scrollToElement('section4')">Lehrinhalte</button>
-                <hr class="nav-line line4" id="line4">
-                <button class="nav-btn" id="nav5" onclick="scrollToElement('section5')">Instagram</button>
-                <hr class="nav-line line5" id="line5">
+      <nav id="nav">
+        <div id="inner-nav">
+          <button
+            class="nav-btn active"
+            id="nav1"
+            onclick="scrollToElement('section1')">
+            Projektvorstellung
+          </button>
+          <hr class="nav-line line1 active" id="line1" />
+          <button
+            class="nav-btn"
+            id="nav2"
+            onclick="scrollToElement('section2')">
+            Unser Team
+          </button>
+          <hr class="nav-line line2" id="line2" />
+          <button
+            class="nav-btn"
+            id="nav3"
+            onclick="scrollToElement('section3')">
+            Projektablauf
+          </button>
+          <hr class="nav-line line3" id="line3" />
+          <button
+            class="nav-btn"
+            id="nav4"
+            onclick="scrollToElement('section4')">
+            Lehrinhalte
+          </button>
+          <hr class="nav-line line4" id="line4" />
+          <button
+            class="nav-btn"
+            id="nav5"
+            onclick="scrollToElement('section5')">
+            Instagram
+          </button>
+          <hr class="nav-line line5" id="line5" />
+        </div>
+      </nav>
+      <main>
+        <div class="content-background" id="section1">
+          <div class="content">
+            <div class="col">
+              <div class="row">
+                <h1 class="foreground-text">Wegweiser UX für KI</h1>
+                <div id="sm-wegweiser" class="img-container">
+                  <img
+                    src="images/Wegweiser-ICON-mit-kräftigen-Farben2.png"
+                    alt="Wegweiser-Logo" />
+                </div>
+              </div>
+              <p class="foreground-text">
+                Das Projekt soll den globalen Stand des User-Experience-Design
+                für KI-Anwendungen an gemeinwohlorientierte KI-Projekte
+                vermitteln.
+              </p>
+              <p class="background-text">UX KI</p>
             </div>
-        </nav>
-        <main>
-            <div class="content-background" id="section1">
-                <div class="content">
-                    <div class="col">
-                        <div class="row">
-                            <h1 class="foreground-text">Wegweiser UX für KI</h1>
-                            <div id="sm-wegweiser" class="img-container">
-                                <img src="images/Wegweiser-ICON-mit-kräftigen-Farben2.png" alt="Wegweiser-Logo">
-                            </div>
-                        </div>
-                        <p class="foreground-text">Das Projekt soll den globalen Stand des
-                            User-Experience-Design für KI-Anwendungen an gemeinwohlorientierte KI-Projekte
-                            vermitteln.
-                        </p>
-                        <p class="background-text">UX KI</p>
-                    </div>
-                    <div class="row row2">
-                        <div class="tile tile1">
-                            <h2>Projektvorstellung</h2>
-                            <h3>Ziele und Ausrichtung</h3>
-                            <p class="light">Das Projekt “Wegweiser.UX-für-KI” hat es sich zum Ziel gemacht,
-                                gemeinwohlorientierte Projekte bei der Entwicklung von KI-Anwendungen zu
-                                unterstützen. Dabei wird der aktuelle Stand von Forschung und Technik im Bereich des
-                                User-Experience-Designs aufbereitet und in Form einer praxisorientierten
-                                UX-Lernplattform präsentiert. Die entwickelten Lehrinhalte richten sich dabei vor allem
-                                an UX-Quereinsteiger:innen, Programmierer:innen und Product Owner aus dem
-                                gemeinwohlorientierten Sektor, die bis jetzt wenig Erfahrung mit der Entwicklung von
-                                KI-Anwendungen und den damit einhergehenden Herausforderungen im Bereich UX/UI sammeln
-                                konnten. Die Lernplattform versteht sich dabei als Wegweiser, um den Nutzenden eine
-                                Orientierungsgrundlage im Bereich UX/UI zu bieten.
-                            </p>
-                        </div>
-                        <div class="img-container">
-                            <img src="images/Wegweiser-ICON-mit-kräftigen-Farben2.png" alt="Wegweiser-Logo">
-                        </div>
-                    </div>
+            <div class="row row2">
+              <div class="tile tile1">
+                <h2>Projektvorstellung</h2>
+                <h3>Ziele und Ausrichtung</h3>
+                <p class="light">
+                  Das Projekt “Wegweiser.UX-für-KI” hat es sich zum Ziel
+                  gemacht, gemeinwohlorientierte Projekte bei der Entwicklung
+                  von KI-Anwendungen zu unterstützen. Dabei wird der aktuelle
+                  Stand von Forschung und Technik im Bereich des
+                  User-Experience-Designs aufbereitet und in Form einer
+                  praxisorientierten UX-Lernplattform präsentiert. Die
+                  entwickelten Lehrinhalte richten sich dabei vor allem an
+                  UX-Quereinsteiger:innen, Programmierer:innen und Product Owner
+                  aus dem gemeinwohlorientierten Sektor, die bis jetzt wenig
+                  Erfahrung mit der Entwicklung von KI-Anwendungen und den damit
+                  einhergehenden Herausforderungen im Bereich UX/UI sammeln
+                  konnten. Die Lernplattform versteht sich dabei als Wegweiser,
+                  um den Nutzenden eine Orientierungsgrundlage im Bereich UX/UI
+                  zu bieten.
+                </p>
+              </div>
+              <div class="img-container">
+                <img
+                  src="images/Wegweiser-ICON-mit-kräftigen-Farben2.png"
+                  alt="Wegweiser-Logo" />
+              </div>
+            </div>
+            <!--
                     <div class="tile tile2">
                         <h2>Ihre Meinung ist entscheidend!</h2>
                         <p class="light">Wir glauben fest daran, dass die besten Lösungen entstehen, wenn die
                             Menschen, die sie am meisten nutzen werden, von Anfang an einbezogen werden.
-                            </br> Deshalb suchen wir engagierte Teilnehmer:innen aus gemeinwohlorientierten
+                            <br> Deshalb suchen wir engagierte Teilnehmer:innen aus gemeinwohlorientierten
                             Organisationen und alle anderen, die an gemeinwohlorientierten Projekten arbeiten,
                             die uns mit ihrem wertvollen Input beim Design unserer Lernplattform unterstützen.
-                            </br> Machen Sie mit und gestalten Sie die Zukunft des Lernens! </br></br>
+                            <br> Machen Sie mit und gestalten Sie die Zukunft des Lernens! <br><br>
                         <p>Teilnahme an der Umfrage für Mitarbeiter:innen und Führungskräfte/Product Owner
                             gemeinwohlorientierter Organisationen:</p>
                         </p>
@@ -89,325 +123,513 @@
                             Einfluss auf die Arbeit gemeinwohlorientierter Projekte hat. Vielen Dank für Ihre
                             Unterstützung!
                         </p>
-                    </div>
-                </div>
+                    </div> -->
+          </div>
+        </div>
+        <div class="content-background-sect2" id="section2">
+          <div class="content">
+            <div class="row row1">
+              <div class="icon">
+                <img src="images/users-alt.svg" alt="Gruppen-Icon" />
+              </div>
+              <div class="text-right">
+                <h1>Unser Team</h1>
+                <p>Alle Mitglieder des Projektteams</p>
+              </div>
             </div>
-            <div class="content-background" id="section2">
-                <div class="content">
-                    <div class="row row1">
-                        <div class="icon">
-                            <img src="images/users-alt.svg" alt="Gruppen-Icon">
-                        </div>
-                        <div class="text-right">
-                            <h1>Unser Team</h1>
-                            <p>Alle Mitglieder des Projektteams</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Hans-Christian Jetter</p>
-                                <p class="job">Projektleiter</p>
-                                <p class="task">Professor für Interaktions-design und User Experience</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:hanschristian.jetter@uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                    <a class="sm-background"
-                                        href="https://www.linkedin.com/in/hans-christian-jetter-47b180b1/">
-                                        <img class="sm-icon" src="images/linkedin.svg" alt="Icon LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Christian-ohne-Hintergrund.png"
-                                    alt="Bild Hans-Christian Jetter">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Marvin Sieger</p>
-                                <p class="job">Wissenschaftlicher Mitarbeiter</p>
-                                <p class="task">Projektkoordination, Kommunikation, Social Media</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:ma.sieger@uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                    <a class="sm-background"
-                                        href="https://www.linkedin.com/in/marvin-sieger-58964a169/">
-                                        <img class="sm-icon" src="images/linkedin.svg" alt="Icon LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Marvin_transparent.png" alt="Bild Marvin Sieger">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Tim Schrills</p>
-                                <p class="job">Wissenschaftlicher Mitarbeiter</p>
-                                <p class="task">Experte Mensch-Maschine-Interaktion & KI</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:tim.schrills@uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                    <a class="sm-background" href="https://www.linkedin.com/in/tim-schrills-a8a7b2166/">
-                                        <img class="sm-icon" src="images/linkedin.svg" alt="Icon LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Tim_Schrills_transparent.png" alt="Bild Tim Schrills">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Akasha Kessel</p>
-                                <p class="job">Wissenschaftliche Hilfskraft</p>
-                                <p class="task">Produktion von Videos und Lehrmaterialien</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:akashaleonie.kessel@student.uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Akasha-ohne-Hintergrund.png" alt="Bild Akasha Kessel">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Helen Kuswik</p>
-                                <p class="job">Wissenschaftliche Hilfskraft</p>
-                                <p class="task">Webentwicklung und Social Media</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:helen.kuswik@student.uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                    <a class="sm-background" href="https://www.linkedin.com/in/helen-kuswik-789b4b236/">
-                                        <img class="sm-icon" src="images/linkedin.svg" alt="Icon LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/HelenKuswik_transparent.png" alt="Bild Helen Kuswik">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Felix Wendt</p>
-                                <p class="job">Studentische Hilfskraft</p>
-                                <p class="task">Konzeption, Gestaltung und User Experience</p>
-                                <div class="socialmedia">
-                                    <a class="sm-background" href="mailto:felix.wendt@student.uni-luebeck.de">
-                                        <img class="sm-icon" src="images/envelope2.svg" alt="Icon E-Mail">
-                                    </a>
-                                    <a class="sm-background"
-                                        href="https://www.linkedin.com/in/felix-immanuel-wendt-0983892b7/">
-                                        <img class="sm-icon" src="images/linkedin.svg" alt="Icon LinkedIn">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/FelixWendt_transparent.png" alt="Bild Felix Wendt">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row1">
-                        <h1>Ehemalige Mitglieder</h1>
-                    </div>
-                    <div class="row row3">
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Daniel Schacht</p>
-                                <p class="job">Wissenschaftlicher Mitarbeiter</p>
-                                <p class="task">Konzeption, Gestaltung und User Experience</p>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Daniel-ohne-Hintergund.png" alt="Bild Daniel Schacht">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Isabella Miller</p>
-                                <p class="job">Wissenschaftliche Hilfskraft</p>
-                                <p class="task">Wissenschaftliche Recherche und Literaturanalyse</p>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Isabella_Miller_transparent.png"
-                                    alt="Bild Isabella Miller">
-                            </div>
-                        </div>
-                        <div class="image-card">
-                            <div class="info">
-                                <p class="name">Patrick Schnittger</p>
-                                <p class="job">Wissenschaftliche Hilfskraft</p>
-                                <p class="task">Unterstützung in verschiedenen Bereichen, z.B. Videoproduktion</p>
-                            </div>
-                            <div class="img-container">
-                                <img class="portrait" src="images/Patrick Schnittger_transparent.png"
-                                    alt="Bild Patrick Schnittger">
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Hans-Christian Jetter</p>
+                  <p class="job">Projektleiter</p>
+                  <p class="task">
+                    Professor für Interaktions-design und User Experience
+                  </p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:hanschristian.jetter@uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/hans-christian-jetter-47b180b1/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="content-background" id="section3">
-                <div class="content">
-                    <div class="row row1">
-                        <div class="col">
-                            <h1>Projektablauf</h1>
-                            <p>Das Projekt ist auf einen Zeitraum von drei Jahren angesetzt, in welchem eine
-                                Lehrplattform und die dazugehörenden Inhalte entwickelt werden.
-                            </p>
-                        </div>
-                        <div class="icon">
-                            <img id="img1" src="images/calendar.svg" alt="Kalender-Icon">
-                        </div>
-                    </div>
-                    <div class="row row2">
-                        <div class="tile">
-                            <h2>Phase 1.</h2>
-                            <h3>STAR-Analyse UXD-für-KI</h3>
-                            <p class="light">In der ersten Phase des Projektes soll eine Übersicht über den aktuellen
-                                Forschungsstand im Bereich UX-Design für KI mit Fokus auf gemeinwohlorientierten
-                                Anwendungen erarbeitet werden. Dazu wird eine State of the Art (STAR) Analyse
-                                durchgeführt, die die wichtigsten Strömungen und Aspekte im Bereich
-                                gemeinwohlorientierter KI ermittelt und sinngebend zusammenfasst. Eine auf Grundlage der
-                                Star-Analyse erarbeitete Zusammenfassung stellt dabei die wissenschaftliche und
-                                inhaltliche Basis für die zu entwickelnden Lerninhalte dar. Aufgrund der Komplexität und
-                                dem Umfang des Themengebietes wird die STAR-Analyse in zwei Ausbaustufen vorgenommen.
-                            </p>
-                        </div>
-                        <div class="tile">
-                            <h2>Phase 2.</h2>
-                            <h3>Produktion Lehrmaterial</h3>
-                            <p class="light">In der zweiten Phase des Projektes werden die in Phase 1 erarbeiteten
-                                Ergebnisse aufgegriffen und genutzt, um in drei iterativen Phasen die Inhalte der
-                                Lernplattform zu erstellen. Auf der Basis der STAR-Analyse wird relevantes Lehrmaterial
-                                in der Form von Videos, Texten, Folien und Code-Beispielen produziert bzw. programmiert.
-                            </p>
-                        </div>
-                        <div class="tile">
-                            <h2>Phase 3.</h2>
-                            <h3>Evaluation</h3>
-                            <p class="light">In der dritten Phase des Projektes steht die Evaluation der entwickelten
-                                Lehrinhalte im Mittelpunkt. Diese Überprüfung findet auf zwei Ebenen statt: </br>
-                                </br> 1. Die Lehrmaterialien werden im Rahmen von vier Testseminaren in partizipativen
-                                Formaten mithilfe von repräsentativen Test-Teilnehmenden evaluiert. Ziel ist es, die
-                                Qualität der Inhalte bzw. Wissensvermittlung durch erprobte Methoden wie Interviews und
-                                Fragebögen zu erfassen und iterativ mit jedem Testseminar zu verbessern. </br>
-                                </br> 2. Die Usability bzw. UX der webbasierten Lehrplattform wird in Usability- und
-                                UX-Studien unter Verwendung standardisierter Evaluationsverfahren im UX-Labor der
-                                Universität zu Lübeck mit Testpersonen mehrfach evaluiert und iterativ verbessert.
-                            </p>
-                        </div>
-                    </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/Christian-ohne-Hintergrund.png"
+                    alt="Bild Hans-Christian Jetter" />
                 </div>
-            </div>
-            <div class="content-background" id="section4">
-                <div class="content">
-                    <div class="row row1">
-                        <div class="icon">
-                            <img src="images/books2.png" alt="Buch-Icon">
-                        </div>
-                        <div class="text-right">
-                            <h1>Lehrinhalte</h1>
-                            <p>Im Rahmen des Projektes werden Lehrinhalte zu verschiedenen </br> Themenbereichen
-                                erstellt.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row row2">
-                        <div class="col">
-                            <div class="tile tile1">
-                                <h2>1. Willkommen</h2>
-                                <h3>Eine kurze Vorstellung unseres Projektes</h3>
-                                <iframe
-                                    src="https://www.youtube-nocookie.com/embed/LDvVRvG7OB0?si=R1yp1rZWo-kn1qo0&amp;rel=0&amp;modestbranding=1"
-                                    title="Projektvorstellung" allowfullscreen>
-                                </iframe>
-                            </div>
-                            <div class="tile tile2">
-                                <h2>2. Weitere Inhalte folgen</h2>
-                                <h3>Weitere Details</h3>
-                                <div class="img-container">
-                                    <img src="images/under-construction-selber-gebaut.png" alt="Under Construction">
-                                </div>
-                                <p class="light">Hier werden detaillierte Inhalte zu dem Video stehen.</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="tile tile3">
-                                <h2>3. Weitere Inhalte folgen</h2>
-                                <h3>Weitere Details</h3>
-                                <div class="img-container">
-                                    <img src="images/under-construction-selber-gebaut.png" alt="Under Construction">
-                                </div>
-                                <p class="light">Hier werden detaillierte Inhalte zu dem Video stehen.</p>
-                            </div>
-                            <div class="tile tile4">
-                                <h2>4. Weitere Inhalte folgen</h2>
-                                <h3>Weitere Details</h3>
-                                <div class="img-container">
-                                    <img src="images/under-construction-selber-gebaut.png" alt="Under Construction">
-                                </div>
-                                <p class="light">Hier werden detaillierte Inhalte zu dem Video stehen.</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Marvin Sieger</p>
+                  <p class="job">Wissenschaftlicher Mitarbeiter</p>
+                  <p class="task">
+                    Projektkoordination, Kommunikation, Social Media
+                  </p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:ma.sieger@uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/marvin-sieger-58964a169/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="content-background" id="section5">
-                <div class="content">
-                    <div class="row row1">
-                        <div class="col">
-                            <h1>Instagram</h1>
-                            <p>Auf Instagram posten wir regelmäßig den Fortschritt des Projektes, Informationen zu
-                                Themen rund um UX & KI, sowie
-                                interaktive Inhalte.
-                            </p>
-                        </div>
-                        <div class="icon">
-                            <img id="img1" src="images/instagram.svg" alt="Instagram-Icon">
-                        </div>
-                    </div>
-                    <div class="tile">
-                        <div id="insta-feed"></div>
-                        <div id="popup-container">
-                            <div id="popup-content"></div>
-                        </div>
-                    </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/Marvin_transparent.png"
+                    alt="Bild Marvin Sieger" />
                 </div>
+              </div>
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Tim Schrills</p>
+                  <p class="job">Wissenschaftlicher Mitarbeiter</p>
+                  <p class="task">Experte Mensch-Maschine-Interaktion & KI</p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:tim.schrills@uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/tim-schrills-a8a7b2166/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/Tim_Schrills_transparent.png"
+                    alt="Bild Tim Schrills" />
+                </div>
+              </div>
             </div>
-        </main>
+            <div class="row">
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Akasha Kessel</p>
+                  <p class="job">Wissenschaftliche Hilfskraft</p>
+                  <p class="task">Produktion von Videos und Lehrmaterialien</p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:akashaleonie.kessel@student.uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/Akasha-ohne-Hintergrund.png"
+                    alt="Bild Akasha Kessel" />
+                </div>
+              </div>
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Felix Wendt</p>
+                  <p class="job">Studentische Hilfskraft</p>
+                  <p class="task">Konzeption, Design und User Experience</p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:felix.wendt@student.uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/felix-immanuel-wendt-0983892b7/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/FelixWendt_transparent.png"
+                    alt="Bild Felix Wendt" />
+                </div>
+              </div>
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Lukas Rudat</p>
+                  <p class="job">Studentische Hilfskraft</p>
+                  <p class="task">Webentwicklung</p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:lukas.rudat@student.uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/lukas-rudat/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/rudat_crop_transparent.png"
+                    alt="Bild Lukas Rudat" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="image-card">
+                <div class="info">
+                  <p class="name">Sophia von Elbwart</p>
+                  <p class="job">Studentische Hilfskraft</p>
+                  <p class="task">Social Media und Webentwicklung</p>
+                  <div class="socialmedia">
+                    <a
+                      class="sm-background"
+                      href="mailto:sophia.golitschekedlevonelbwart@student.uni-luebeck.de">
+                      <img
+                        class="sm-icon"
+                        src="images/envelope2.svg"
+                        alt="Icon E-Mail" />
+                    </a>
+                    <a
+                      class="sm-background"
+                      href="https://www.linkedin.com/in/sophia-von-elbwart/">
+                      <img
+                        class="sm-icon"
+                        src="images/linkedin.svg"
+                        alt="Icon LinkedIn" />
+                    </a>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <img
+                    class="portrait"
+                    src="images/vonElbwart_transparent.png"
+                    alt="Bild Sophia von Elbwart" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="toggleDiv" class="collapsed">
+            <div class="lastMemberHeader tile">
+              <span id="lastMemberHeaderText">Ehemalige Mitglieder</span>
+              <img
+                id="toggleIcon"
+                src="images/angle-up-solid.svg"
+                alt="Toggle Icon"
+                class="toggle-icon" />
+            </div>
+            <div id="lastMemberContent" class="lastMemberContentent">
+              <div class="row">
+                <div class="image-card">
+                  <div class="info">
+                    <p class="name">Daniel Schacht</p>
+                    <p class="job">Wissenschaftlicher Mitarbeiter</p>
+                    <p class="task">
+                      Konzeption, Gestaltung und User Experience
+                    </p>
+                  </div>
+                  <div class="img-container">
+                    <img
+                      class="portrait"
+                      src="images/Daniel-ohne-Hintergund.png"
+                      alt="Bild Daniel Schacht" />
+                  </div>
+                </div>
+                <div class="image-card">
+                  <div class="info">
+                    <p class="name">Isabella Miller</p>
+                    <p class="job">Wissenschaftliche Hilfskraft</p>
+                    <p class="task">
+                      Wissenschaftliche Recherche und Literaturanalyse
+                    </p>
+                  </div>
+                  <div class="img-container">
+                    <img
+                      class="portrait"
+                      src="images/Isabella_Miller_transparent.png"
+                      alt="Bild Isabella Miller" />
+                  </div>
+                </div>
+                <div class="image-card">
+                  <div class="info">
+                    <p class="name">Patrick Schnittger</p>
+                    <p class="job">Wissenschaftliche Hilfskraft</p>
+                    <p class="task">
+                      Unterstützung in verschiedenen Bereichen, z.B.
+                      Videoproduktion
+                    </p>
+                  </div>
+                  <div class="img-container">
+                    <img
+                      class="portrait"
+                      src="images/Patrick Schnittger_transparent.png"
+                      alt="Bild Patrick Schnittger" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="image-card">
+                  <div class="info">
+                    <p class="name">Helen Kuswik</p>
+                    <p class="job">Wissenschaftliche Hilfskraft</p>
+                    <p class="task">Webentwicklung und Social Media</p>
+                  </div>
+                  <div class="img-container">
+                    <img
+                      class="portrait"
+                      src="images/HelenKuswik_transparent.png"
+                      alt="Bild Helen Kuswik" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-background" id="section3">
+          <div class="content">
+            <div class="row row1">
+              <div class="col">
+                <h1>Projektablauf</h1>
+                <p>
+                  Das Projekt ist auf einen Zeitraum von drei Jahren angesetzt,
+                  in welchem eine Lehrplattform und die dazugehörenden Inhalte
+                  entwickelt werden.
+                </p>
+              </div>
+              <div class="icon">
+                <img id="img1" src="images/calendar.svg" alt="Kalender-Icon" />
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="tile">
+                <h2>Phase 1.</h2>
+                <h3>STAR-Analyse UXD-für-KI</h3>
+                <p class="light">
+                  In der ersten Phase des Projektes soll eine Übersicht über den
+                  aktuellen Forschungsstand im Bereich UX-Design für KI mit
+                  Fokus auf gemeinwohlorientierten Anwendungen erarbeitet
+                  werden. Dazu wird eine State of the Art (STAR) Analyse
+                  durchgeführt, die die wichtigsten Strömungen und Aspekte im
+                  Bereich gemeinwohlorientierter KI ermittelt und sinngebend
+                  zusammenfasst. Eine auf Grundlage der Star-Analyse erarbeitete
+                  Zusammenfassung stellt dabei die wissenschaftliche und
+                  inhaltliche Basis für die zu entwickelnden Lerninhalte dar.
+                  Aufgrund der Komplexität und dem Umfang des Themengebietes
+                  wird die STAR-Analyse in zwei Ausbaustufen vorgenommen.
+                </p>
+              </div>
+              <div class="tile">
+                <h2>Phase 2.</h2>
+                <h3>Produktion Lehrmaterial</h3>
+                <p class="light">
+                  In der zweiten Phase des Projektes werden die in Phase 1
+                  erarbeiteten Ergebnisse aufgegriffen und genutzt, um in drei
+                  iterativen Phasen die Inhalte der Lernplattform zu erstellen.
+                  Auf der Basis der STAR-Analyse wird relevantes Lehrmaterial in
+                  der Form von Videos, Texten, Folien und Code-Beispielen
+                  produziert bzw. programmiert.
+                </p>
+              </div>
+              <div class="tile">
+                <h2>Phase 3.</h2>
+                <h3>Evaluation</h3>
+                <p class="light">
+                  In der dritten Phase des Projektes steht die Evaluation der
+                  entwickelten Lehrinhalte im Mittelpunkt. Diese Überprüfung
+                  findet auf zwei Ebenen statt: <br />
+                  <br />
+                  1. Die Lehrmaterialien werden im Rahmen von vier Testseminaren
+                  in partizipativen Formaten mithilfe von repräsentativen
+                  Test-Teilnehmenden evaluiert. Ziel ist es, die Qualität der
+                  Inhalte bzw. Wissensvermittlung durch erprobte Methoden wie
+                  Interviews und Fragebögen zu erfassen und iterativ mit jedem
+                  Testseminar zu verbessern. <br />
+                  <br />
+                  2. Die Usability bzw. UX der webbasierten Lehrplattform wird
+                  in Usability- und UX-Studien unter Verwendung standardisierter
+                  Evaluationsverfahren im UX-Labor der Universität zu Lübeck mit
+                  Testpersonen mehrfach evaluiert und iterativ verbessert.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-background" id="section4">
+          <div class="content">
+            <div class="row row1">
+              <div class="icon">
+                <img src="images/books2.png" alt="Buch-Icon" />
+              </div>
+              <div class="text-right">
+                <h1>Lehrinhalte</h1>
+                <p>
+                  Im Rahmen des Projektes werden Lehrinhalte zu verschiedenen
+                  <br />
+                  Themenbereichen erstellt.
+                </p>
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="col">
+                <div class="tile tile1">
+                  <h2>1. Willkommen</h2>
+                  <h3>Eine kurze Vorstellung unseres Projektes</h3>
+                  <iframe
+                    src="https://www.youtube-nocookie.com/embed/LDvVRvG7OB0?si=R1yp1rZWo-kn1qo0&amp;rel=0&amp;modestbranding=1"
+                    title="Projektvorstellung"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+                <div class="tile tile2">
+                  <h2>2. Weitere Inhalte folgen</h2>
+                  <h3>Weitere Details</h3>
+                  <div class="img-container">
+                    <img
+                      src="images/under-construction-selber-gebaut.png"
+                      alt="Under Construction" />
+                  </div>
+                  <p class="light">
+                    Hier werden detaillierte Inhalte zu dem Video stehen.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tile tile3">
+                  <h2>3. Weitere Inhalte folgen</h2>
+                  <h3>Weitere Details</h3>
+                  <div class="img-container">
+                    <img
+                      src="images/under-construction-selber-gebaut.png"
+                      alt="Under Construction" />
+                  </div>
+                  <p class="light">
+                    Hier werden detaillierte Inhalte zu dem Video stehen.
+                  </p>
+                </div>
+                <div class="tile tile4">
+                  <h2>4. Weitere Inhalte folgen</h2>
+                  <h3>Weitere Details</h3>
+                  <div class="img-container">
+                    <img
+                      src="images/under-construction-selber-gebaut.png"
+                      alt="Under Construction" />
+                  </div>
+                  <p class="light">
+                    Hier werden detaillierte Inhalte zu dem Video stehen.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-background" id="section5">
+          <div class="content">
+            <div class="row row1">
+              <div class="col">
+                <h1>Instagram</h1>
+                <p>
+                  Auf Instagram posten wir regelmäßig den Fortschritt des
+                  Projektes, Informationen zu Themen rund um UX & KI, sowie
+                  interaktive Inhalte.
+                </p>
+              </div>
+              <div class="icon">
+                <img
+                  id="img1"
+                  src="images/instagram.svg"
+                  alt="Instagram-Icon" />
+              </div>
+            </div>
+            <div class="tile">
+              <div id="insta-feed"></div>
+              <div id="popup-container">
+                <div id="popup-content"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
     <footer>
-        <div class="row">
-            <a href="https://ux-fuer-ki.de/impressum.html" class="text-link">Impressum</a>
-            <a href="https://www.bmfsfj.de/bmfsfj">
-                <div class="img-container">
-                    <img class="img" src="images/BMFSFJ_Logo.jpg" alt="Logo des BMFSFJ">
-                </div>
-            </a>
-            <a href="https://www.imis.uni-luebeck.de/">
-                <div class="img-container">
-                    <img class="img" src="images/IMIS_Logo.png" alt="Logo des IMIS, Universität zu Lübeck">
-                </div>
-            </a>
-        </div>
-        <a href="https://ux-fuer-ki.de/barrierefreiheit.html">Informationen zur Barrierefreiheit der Website</a>
+      <div class="row">
+        <a href="https://ux-fuer-ki.de/impressum.html" class="text-link"
+          >Impressum</a
+        >
+        <a href="https://www.bmfsfj.de/bmfsfj">
+          <div class="img-container">
+            <img
+              class="img"
+              src="images/BMFSFJ_Logo.jpg"
+              alt="Logo des BMFSFJ" />
+          </div>
+        </a>
+        <a href="https://www.imis.uni-luebeck.de/">
+          <div class="img-container">
+            <img
+              class="img"
+              src="images/IMIS_Logo.png"
+              alt="Logo des IMIS, Universität zu Lübeck" />
+          </div>
+        </a>
+      </div>
+      <a href="https://ux-fuer-ki.de/barrierefreiheit.html"
+        >Informationen zur Barrierefreiheit der Website</a
+      >
     </footer>
     <div id="burger">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
 
     <script src="functionality.js"></script>
-</body>
-
+  </body>
 </html>
