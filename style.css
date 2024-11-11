@@ -552,14 +552,25 @@ main {
   margin-bottom: 50px;
 }
 
-#section4 iframe {
-  border: 0;
-  border-radius: 10px;
+.video-wrapper {
+  position: relative;
   width: 100%;
-  height: 45.8%;
+  padding-bottom: 56.25%; /* 16:9 ratio (9/16 = 0.5625) */
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-#section4 iframe:hover {
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: inherit; /* Ensures the border-radius from the wrapper applies */
+}
+
+.video-wrapper iframe:hover {
   opacity: 80%;
 }
 

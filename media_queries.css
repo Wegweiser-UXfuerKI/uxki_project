@@ -303,9 +303,8 @@
     width: 100%;
   }
 
-  #section4 .tile3,
-  #section4 .tile4 {
-    display: none;
+  #section4 .row {
+    flex-direction: column;
   }
 
   #section4 .tile1 {
