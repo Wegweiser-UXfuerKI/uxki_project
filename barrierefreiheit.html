@@ -1,121 +1,140 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barrierefreiheit</title>
-    <link rel="icon" type="image/x-icon" href="/images/wegweiser_flat.png">
-    <link href="style.css" rel="stylesheet">
-    <link href="media_queries.css" rel="stylesheet">
-</head>
+    <link rel="icon" type="image/x-icon" href="/images/wegweiser_flat.webp" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="media_queries.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <style>
-        body {
-            color: #21202b;
-            background-color: #d4d2dd;
-        }
+      body {
+        color: #21202b;
+        background-color: #d4d2dd;
+      }
 
-        p {
-            line-height: 1.5em;
+      p {
+        line-height: 1.5em;
+      }
+
+      h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-top: 30px;
+      }
+
+      main {
+        width: 85%;
+        margin-left: 15%;
+        padding-left: 50px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+      }
+
+      #inner-nav {
+        justify-content: space-between;
+        height: 40%;
+        align-self: center;
+      }
+
+      @media screen and (max-width: 1040px) {
+        main {
+          margin-top: 7%;
+          margin-left: 0;
         }
 
         h1 {
-            font-size: 30px;
-            margin-top: 20px;
-            margin-bottom: 20px;
+          font-size: 25px;
         }
 
         h2 {
-            font-size: 20px;
-            margin-top: 30px;
+          font-size: 18px;
         }
-
-        main {
-            width: 85%;
-            margin-left: 15%;
-            padding-left: 50px;
-            padding-top: 10px;
-            padding-bottom: 100px;
-        }
-
-        #inner-nav {
-            justify-content: space-between;
-            height: 40%;
-            align-self: center;
-        }
-
-        @media screen and (max-width: 1040px) {
-            main {
-                margin-top: 7%;
-                margin-left: 0;
-            }
-
-            h1 {
-                font-size: 25px;
-            }
-
-            h2 {
-                font-size: 18px;
-            }
-        }
+      }
     </style>
     <div class="container">
-        <nav id="nav">
-            <div id="inner-nav">
-                <button class="nav-btn" onclick="navToElement('section1')">Projektvorstellung</button>
-                <button class="nav-btn" onclick="navToElement('section2')">Unser Team</button>
-                <button class="nav-btn" onclick="navToElement('section3')">Projektablauf</button>
-                <button class="nav-btn" onclick="navToElement('section4')">Lehrinhalte</button>
-                <button class="nav-btn" onclick="navToElement('section5')">Instagram</button>
-            </div>
-        </nav>
-        <main>
-            <h1>Barrierefreiheit</h1>
-            <p>Wir sind bemühen uns, eine Website bereitzustellen, die für ein möglichst breites Publikum zugänglich
-                ist, unabhängig von Umständen und Fähigkeiten. Daher versuchen wir, die vom World Wide Web Consortium
-                (W3C) veröffentlichten Web Content Accessibility Guidelines (WCAG 2.0, Level AA) so weit wie möglich
-                einzuhalten.<br><br></p>
-            <p>Diese Richtlinien erläutern, wie Web-Inhalte für Menschen mit Behinderungen besser zugänglich gemacht
-                werden können. Die Einhaltung dieser Richtlinien trägt dazu bei, das Web für alle benutzerfreundlicher
-                zu gestalten. Während das Projekt in2Lübeck sich bemüht, die Richtlinien und Standards für
-                Barrierefreiheit einzuhalten, ist es nicht immer möglich, dies in allen Bereichen der Website zu tun,
-                und wir arbeiten derzeit daran, dies zu erreichen.<br><br></p>
-            <p>Bitte beachten Sie, dass es aufgrund der Dynamik der Website gelegentlich zu kleineren Problemen kommen
-                kann, da die Website regelmäßig aktualisiert wird. Wir sind ständig auf der Suche nach Lösungen, die
-                alle Bereiche der Website auf das gleiche Niveau der allgemeinen Webzugänglichkeit bringen.
-                Wenn Sie Kommentare und Vorschläge zur Verbesserung haben, wie wir die Barrierefreiheit unserer Website
-                verbessern können, zögern Sie bitte nicht uns zu kontaktieren. Ihr Feedback hilft uns, Verbesserungen
-                vorzunehmen.</p>
-        </main>
+      <nav id="nav">
+        <div id="inner-nav">
+          <button class="nav-btn" onclick="navToElement('section1')">
+            Projektvorstellung
+          </button>
+          <button class="nav-btn" onclick="navToElement('section2')">
+            Unser Team
+          </button>
+          <button class="nav-btn" onclick="navToElement('section3')">
+            Projektablauf
+          </button>
+          <button class="nav-btn" onclick="navToElement('section4')">
+            Lehrinhalte
+          </button>
+          <button class="nav-btn" onclick="navToElement('section5')">
+            Instagram
+          </button>
+        </div>
+      </nav>
+      <main>
+        <h1>Barrierefreiheit</h1>
+        <p>
+          Wir sind bemühen uns, eine Website bereitzustellen, die für ein
+          möglichst breites Publikum zugänglich ist, unabhängig von Umständen
+          und Fähigkeiten. Daher versuchen wir, die vom World Wide Web
+          Consortium (W3C) veröffentlichten Web Content Accessibility Guidelines
+          (WCAG 2.0, Level AA) so weit wie möglich einzuhalten.<br /><br />
+        </p>
+        <p>
+          Diese Richtlinien erläutern, wie Web-Inhalte für Menschen mit
+          Behinderungen besser zugänglich gemacht werden können. Die Einhaltung
+          dieser Richtlinien trägt dazu bei, das Web für alle
+          benutzerfreundlicher zu gestalten. Während das Projekt in2Lübeck sich
+          bemüht, die Richtlinien und Standards für Barrierefreiheit
+          einzuhalten, ist es nicht immer möglich, dies in allen Bereichen der
+          Website zu tun, und wir arbeiten derzeit daran, dies zu erreichen.<br /><br />
+        </p>
+        <p>
+          Bitte beachten Sie, dass es aufgrund der Dynamik der Website
+          gelegentlich zu kleineren Problemen kommen kann, da die Website
+          regelmäßig aktualisiert wird. Wir sind ständig auf der Suche nach
+          Lösungen, die alle Bereiche der Website auf das gleiche Niveau der
+          allgemeinen Webzugänglichkeit bringen. Wenn Sie Kommentare und
+          Vorschläge zur Verbesserung haben, wie wir die Barrierefreiheit
+          unserer Website verbessern können, zögern Sie bitte nicht uns zu
+          kontaktieren. Ihr Feedback hilft uns, Verbesserungen vorzunehmen.
+        </p>
+      </main>
     </div>
     <div id="burger">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
 
     <script>
-        function navToElement(sectionID) {
-            window.location.href = 'index.html#' + sectionID;
-        }
-        // toggle the burger-navbar
-        function toggleNavbar() {
-            var nav = document.getElementById("nav");
-            var burger = document.getElementById("burger");
-            nav.style.display = nav.style.display === "flex" ? "none" : "flex";
-            burger.classList.toggle("change");
-        }
-        // add event listener to the burger menu icon
-        var burgerMenu = document.getElementById("burger");
-        burgerMenu.addEventListener("click", toggleNavbar);
-        // toggle navbar when nav-button is clicked
-        var navs = document.getElementsByClassName("nav-btn");
-        for (var i = 0; i < navs.length; i++) {
-            navs.item(i).addEventListener("click", toggleNavbar);
-        }
+      function navToElement(sectionID) {
+        window.location.href = "index.html#" + sectionID;
+      }
+      // toggle the burger-navbar
+      function toggleNavbar() {
+        var nav = document.getElementById("nav");
+        var burger = document.getElementById("burger");
+        nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+        burger.classList.toggle("change");
+      }
+      // add event listener to the burger menu icon
+      var burgerMenu = document.getElementById("burger");
+      burgerMenu.addEventListener("click", toggleNavbar);
+      // toggle navbar when nav-button is clicked
+      var navs = document.getElementsByClassName("nav-btn");
+      for (var i = 0; i < navs.length; i++) {
+        navs.item(i).addEventListener("click", toggleNavbar);
+      }
     </script>
-</body>
-
+  </body>
 </html>

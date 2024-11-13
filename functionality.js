@@ -84,11 +84,11 @@ function openPopup(media) {
   // create the left and right arrows
   const leftArrow = document.createElement("img");
   leftArrow.classList.add("arrow", "left-arrow");
-  leftArrow.src = "images/left.png";
+  leftArrow.src = "images/left.webp";
 
   const rightArrow = document.createElement("img");
   rightArrow.classList.add("arrow", "right-arrow");
-  rightArrow.src = "images/right.png";
+  rightArrow.src = "images/right.webp";
 
   if (media.media_type === "CAROUSEL_ALBUM") {
     // add the arrows to the popup content for carousel_album
@@ -115,7 +115,7 @@ function openPopup(media) {
                 <a class="img-container" href="https://www.instagram.com/${
                   media.username
                 }">
-                    <img src="images/wegweiser_flat.png" alt="Instagram-Wegweiser-Logo">
+                    <img src="images/wegweiser_flat.webp" alt="Instagram-Wegweiser-Logo">
                 </a>
                 <a id="username" href="https://www.instagram.com/${
                   media.username
