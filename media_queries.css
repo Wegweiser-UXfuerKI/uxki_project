@@ -220,6 +220,18 @@
     margin-bottom: 100px;
   }
 
+  #section2 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #section2 .row1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   #section2 .row2 {
     margin-bottom: 40px;
   }
@@ -245,6 +257,10 @@
     flex-wrap: wrap;
   }
 
+  .expanded {
+    max-height: none;
+  }
+
   #section2 .info p {
     font-size: 13px;
   }
@@ -254,9 +270,9 @@
   }
 
   #section2 .image-card {
-    width: 42%;
-    max-width: 42%;
-    margin-bottom: 130px;
+    width: 60%;
+    max-width: 60%;
+    margin-bottom: 100px;
   }
 
   .lastMemberHeader,
@@ -440,6 +456,12 @@
   #section4 .row2,
   #section5 .tile {
     margin-bottom: 100px;
+  }
+
+  #section2 .image-card {
+    width: 60%;
+    max-width: 60%;
+    margin-bottom: 150px;
   }
 
   #section3 .col {
