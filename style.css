@@ -915,3 +915,12 @@ footer .text-link {
   display: flex;
   flex-direction: row;
 }
+
+.wegweiserLink a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.wegweiserLink a:hover {
+  color: #77d1cb;
+}
